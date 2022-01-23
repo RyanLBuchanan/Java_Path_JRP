@@ -12,11 +12,19 @@ public class LearningArrays {
 		values[99] = 314159;
 		
 		// Print array value
-		System.out.println(values[99]);
+//		System.out.println(values[99]);
 		
-		String [] words = new String[] {"My", "Name", "is"};
+		String [] words = new String[3];
+		words[0] = "My";
+		words[1] = "name";
+		words[2] = "is";
 		
 		System.out.println(words[1]);
+		
+		words = new String[10];
+		
+		System.out.println(words[1]);
+		
 	}
 
 }
