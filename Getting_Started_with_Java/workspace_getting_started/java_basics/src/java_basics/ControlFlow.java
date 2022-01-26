@@ -21,7 +21,7 @@ public class ControlFlow {
 		}
 		
 		int favTemp = 75;
-		int curTemp = 32;
+		int curTemp = 80;
 		String opine;
 
 		if(curTemp < favTemp - 30) {
