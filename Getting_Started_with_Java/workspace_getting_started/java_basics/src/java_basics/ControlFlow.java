@@ -21,13 +21,13 @@ public class ControlFlow {
 		}
 		
 		int favTemp = 75;
-		int curTemp = 80;
+		int curTemp = 54;
 		String opine;
 
 		if(curTemp < favTemp - 30) {
 			opine = "Damn, it cold!";
 		} else if (curTemp < favTemp - 20) {
-			opine = "No too cold, but must have layers.";
+			opine = "Not too cold, but must have layers.";
 		} else if (curTemp > favTemp + 10) {
 			opine = "Motherlover!  It's warm!";
 		} else {
