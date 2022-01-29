@@ -3,7 +3,7 @@ package java_basics;
 public class MyUtils {
 	
 	public static String printStuff(String argument) {
-//		System.out.println("This is the string output: " + argument);
+		System.out.println("This is the string output: " + argument);
 		return argument;
 	}
 	
