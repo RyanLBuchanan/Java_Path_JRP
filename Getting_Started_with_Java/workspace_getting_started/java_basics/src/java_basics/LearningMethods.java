@@ -9,6 +9,7 @@ public class LearningMethods {
 //		
 		System.out.println(MyUtils.printStuff("This is a cyberstring!"));
 //		
+		MyUtils.printStuff(42);
 //		MyUtils.printStuff(42);
 //		
 //		MyUtils.sum2Numbers(42, 69);
