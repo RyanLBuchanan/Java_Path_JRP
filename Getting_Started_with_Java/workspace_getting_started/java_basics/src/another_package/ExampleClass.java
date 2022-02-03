@@ -5,6 +5,6 @@ import java_basics.MyUtils;
 public class ExampleClass {
 
 	public static void doSomething() {
-		MyUtils.printStuff(0);
+		MyUtils.printStuff(87);
 	}
 }
