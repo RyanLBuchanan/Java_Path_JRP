@@ -1,31 +1,19 @@
 package java_basics;
 
-import another_package.ExampleClass;
-
 public class LearningMethods {
 
 	public static void main(String[] args) {
+	
+//		MyUtils.add10(100);
 		
-//		System.out.println("You must believe!");
+		MyUtils myVar;
+		myVar = new MyUtils();
 		
-////		
-//		System.out.println(MyUtils.printStuff("This is a cyberstring!"));
-////		
-//		MyUtils.printStuff(42);
-//		MyUtils.printStuff(42);
-//		
-//		MyUtils.sum2Numbers(42, 69);
-//
-//		int myVar = MyUtils.add10(42) + 1000 - 1000;
-//		System.out.println(myVar);
+		MyUtils.printStuff(20);
 		
-		ExampleClass.doSomething();
+		myVar.add10(10);
 	}
 	
-	public static void printStuff(String argument, int argInt) {
-		System.out.println("This is the output: " + argument + argInt);
-	}
-
 	
 	
 }

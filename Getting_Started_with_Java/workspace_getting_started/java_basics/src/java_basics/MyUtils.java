@@ -16,7 +16,7 @@ public class MyUtils {
 		System.out.println(firstArg + secondArg);
 	}
 	
-	public static int add10(int someArg) {
+	public int add10(int someArg) {
 		int result = someArg + 10;
 		return result;
 	}
