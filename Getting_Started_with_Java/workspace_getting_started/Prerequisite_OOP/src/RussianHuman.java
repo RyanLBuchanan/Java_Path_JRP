@@ -1,20 +1,25 @@
 
-public class Human {
+public class RussianHuman {
 	
 	// Name
 	String название;
 	// Age
 	int возраст;
 	// Height
-	int высота;
+	double высота;
 	// Eye color
 	String цветглаз;
 	
+	// Constructor method
+	public RussianHuman() {
+		
+	}
+	
 	public void speak() {
-		System.out.println("Привет меня зовут " + название);
-		System.out.println("я " + высота + " высокий");
-		System.out.println("я " + возраст + "лет");
-		System.out.println("мой цвет глаз " + цветглаз);
+		System.out.println("Привет меня зовут " + название + ".");
+		System.out.println("я " + высота + " метров высокий.");
+		System.out.println("я " + возраст + " лет.");
+		System.out.println("мой цвет глаз " + цветглаз + ".");
 	}
 	
 	public void есть() {
