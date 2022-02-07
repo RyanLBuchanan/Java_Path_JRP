@@ -1,4 +1,3 @@
-
 public class RussianHuman {
 	
 	// Name
@@ -15,7 +14,8 @@ public class RussianHuman {
 		
 	}
 	
-	public void speak() {
+	
+	public void russianSpeak() {
 		System.out.println("Привет меня зовут " + название + ".");
 		System.out.println("я " + высота + " метров высокий.");
 		System.out.println("я " + возраст + " лет.");
