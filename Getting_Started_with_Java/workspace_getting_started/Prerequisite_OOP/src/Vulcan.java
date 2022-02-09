@@ -1,5 +1,6 @@
-public class Human {
-	
+
+public class Vulcan {
+
 	// Name
 	String name;
 	// Age
@@ -10,12 +11,11 @@ public class Human {
 	String eyeColor;
 	
 	// Constructor method
-	public Human() {
-		age = 41;
-		eyeColor = "Blue";
-		name = "Captain Archer";
-		height = 1.72;
-		
+	public Vulcan() {
+		age = 69;
+		eyeColor = "Green";
+		name = "Tpol VulcanSexy";
+		height = 1.62;
 	}
 	
 	public void speak() {
@@ -41,5 +41,3 @@ public class Human {
 		System.out.println("I am working...");
 	}
 }
-
-

@@ -11,7 +11,14 @@ public class RussianHuman {
 	
 	// Constructor method
 	public RussianHuman() {
-		
+		// Ivan's age
+		возраст = 21;
+		// Ivan's eye color
+		цветглаз = "синий";
+		// Ivan's height
+		высота = 1.83;
+		// Ivan's name
+		название = "Иван Чернов"; 
 	}
 	
 	
