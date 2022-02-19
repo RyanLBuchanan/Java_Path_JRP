@@ -6,10 +6,10 @@ public class Earth {
 		RussianHuman Ivan = new RussianHuman();
 		Vulcan TPol = new Vulcan();
 		
-		Archer.speak();
-		System.out.println("");
-		Ivan.russianSpeak();
-		System.out.println("");
-		TPol.speak();
+//		Archer.speak();
+//		System.out.println("");
+//		Ivan.russianSpeak();
+//		System.out.println("");
+//		TPol.speak();
 	}
 }
