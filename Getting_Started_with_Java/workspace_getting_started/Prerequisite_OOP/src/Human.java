@@ -10,13 +10,15 @@ public class Human {
 	String eyeColor;
 	
 	// Constructor method
-	public Human() {
-		age = 41;
-		eyeColor = "Blue";
-		name = "Captain Archer";
-		height = 1.72;
-		
-	}
+//	public Human() {
+//		age = 41;
+//		eyeColor = "Blue";
+//		name = "Captain Archer";
+//		height = 1.72;
+//		
+//	}
+	
+	
 	
 	public void speak() {
 		System.out.println("My name is " + name + ".");
@@ -26,6 +28,15 @@ public class Human {
 	}
 	
 	
+	public Human(String name, int age, double height, String eyeColor) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.height = height;
+		this.eyeColor = eyeColor;
+	}
+
+
 	public void eat() {
 		// Eating
 		System.out.println("I am eating...");

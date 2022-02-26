@@ -11,12 +11,12 @@ public class Vulcan {
 	String eyeColor;
 	
 	// Constructor method
-	public Vulcan() {
-		age = 69;
-		eyeColor = "Green";
-		name = "Tpol VulcanSexy";
-		height = 1.62;
-	}
+//	public Vulcan() {
+//		age = 69;
+//		eyeColor = "Green";
+//		name = "Tpol VulcanSexy";
+//		height = 1.62;
+//	}
 	
 	public void speak() {
 		System.out.println("My name is " + name + ".");
@@ -26,6 +26,15 @@ public class Vulcan {
 	}
 	
 	
+	public Vulcan(String name, int age, double height, String eyeColor) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.height = height;
+		this.eyeColor = eyeColor;
+	}
+
+
 	public void eat() {
 		// Eating
 		System.out.println("I am eating...");
