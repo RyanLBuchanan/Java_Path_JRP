@@ -1,24 +1,19 @@
 
 public class Zoo {
 
-		// City 
-		String city;
-		// Size
-		int size;
-		// Age
-		double age;
-		// Type of zoo (aquatic, reptile, general, etc.)
-		String zooType;
+	public static void main(String[] args) {
 		
 		
-		public Zoo(String city, int size, double age, String zooType) {
-			super();
-			this.city = city;
-			this.size = size;
-			this.age = age;
-			this.zooType = zooType;
-		}
+		Animal puppyAnimal =  new Animal("Mammal", 10.11, "Male", 15, "Golden");
+				
+		puppyAnimal.speak();
+		System.out.println("");
 		
-		
-		
+		Bird birdBrain = new Bird();
+		birdBrain.fly();
+
+		Fish fishFace = new Fish();
+		fishFace.swim();
 	}
+
+}

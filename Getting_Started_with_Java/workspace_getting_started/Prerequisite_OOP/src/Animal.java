@@ -39,7 +39,7 @@ public class Animal {
 		}
 		
 		public void sleep() {
-			System.out.println("Sleep... ");
+			System.out.println("Sleeping... ");
 			
 		}
 		
