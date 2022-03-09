@@ -9,10 +9,15 @@ public class Zoo {
 		puppyAnimal.speak();
 		System.out.println("");
 		
-		Bird birdBrain = new Bird();
+		Bird birdBrain = new Bird("BirdBrain", 3.14159, "Female", 69, "Turqoise");
+		System.out.println("BirdBrain is gonna be...");
+		birdBrain.eat();
+		birdBrain.sleep();
 		birdBrain.fly();
-
-		Fish fishFace = new Fish();
+		System.out.println("");
+		
+		Fish fishFace = new Fish("FishFace", 1.1614, "Male", 42, "Rainbow");
+		System.out.println("FishFace is gonna be...");
 		fishFace.swim();
 	}
 
