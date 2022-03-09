@@ -10,14 +10,14 @@ public class Zoo {
 		System.out.println("");
 		
 		Bird birdBrain = new Bird("BirdBrain", 3.14159, "Female", 69, "Turqoise");
-		System.out.println("BirdBrain is gonna be...");
+		System.out.println("BirdBrain be...");
 		birdBrain.eat();
 		birdBrain.sleep();
 		birdBrain.fly();
 		System.out.println("");
 		
 		Fish fishFace = new Fish("FishFace", 1.1614, "Male", 42, "Rainbow");
-		System.out.println("FishFace is gonna be...");
+		System.out.println("FishFace be...");
 		fishFace.swim();
 	}
 
