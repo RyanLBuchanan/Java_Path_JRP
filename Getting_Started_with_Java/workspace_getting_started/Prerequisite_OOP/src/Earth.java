@@ -9,7 +9,7 @@ public class Earth {
 		Archer.speak();
 		System.out.println("");
 //		Ivan.russianSpeak();
-		System.out.println("");
-		TPol.speak();
+//		System.out.println("");
+//		TPol.speak();
 	}
 }
