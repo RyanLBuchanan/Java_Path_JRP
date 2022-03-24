@@ -16,9 +16,9 @@ public class Zoo {
 		birdBrain.fly();
 		System.out.println("");
 		
-//		Fish fishFace = new Fish("FishFace", 1.1614, "Male", 42, "Rainbow");
-//		System.out.println("FishFace be...");
-//		fishFace.swim();
+		Fish fishFace = new Fish("FishFace", 1.1614, "Male", 42, "Rainbow");
+		System.out.println("FishFace be...");
+		fishFace.swim();
 	}
 
 }
