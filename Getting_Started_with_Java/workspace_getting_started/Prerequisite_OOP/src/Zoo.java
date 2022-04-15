@@ -18,8 +18,8 @@ public class Zoo {
 		
 	
 		
-//		Fish fishFace = new Fish("FishFace", 1.1614, "Male", 42, "Rainbow");
-//		System.out.println("FishFace be...");
+		Fish fishFace = new Fish("FishFace", 1.1614, "Male", 42, "Rainbow");
+		System.out.println("FishFace be...");
 		fishFace.swim();
 	}
 
