@@ -13,3 +13,4 @@ public class Earth {
 		TPol.speak();
 	}
 }
+
