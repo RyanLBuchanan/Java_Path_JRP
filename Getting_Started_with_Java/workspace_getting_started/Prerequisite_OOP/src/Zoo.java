@@ -22,6 +22,11 @@ public class Zoo {
 		System.out.println("FishFace be...");
 		fishFace.swim();
 		fishFace.hunt();
+		System.out.println("");
+		
+		Firehawk firehawk = new Firehawk("Hero Hawk", 42, "male", 12, "Fire color");
+		System.out.println("FireHawky be...");
+		firehawk.fly();
 	}
-
 }
+ 
