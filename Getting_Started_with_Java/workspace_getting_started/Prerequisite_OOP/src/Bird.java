@@ -8,6 +8,6 @@ public class Bird extends Animal{
 	}
 
 	public void fly() {
-		System.out.println("Flying... ");
+		System.out.println("Flying in the sky!");
 	}
 }

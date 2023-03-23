@@ -34,12 +34,17 @@ public class Animal {
 		}
 		
 		public void eat() {
-			System.out.println("Eating... ");
+			System.out.println("Eating in the canteen.");
 			
 		}
 		
 		public void sleep() {
-			System.out.println("Sleeping... ");
+			System.out.println("Sleeping in the bed.");
+			
+		}
+		
+		public void hunt() {
+			System.out.println("Hunting wabbits!");
 			
 		}
 		
